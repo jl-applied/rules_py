@@ -1,0 +1,9 @@
+load("@//py:defs.bzl", "py_test")
+
+py_test(
+    name = "py_test",
+    srcs = [
+        "foo_test.py",
+    ],
+    stamp = 0,
+)
